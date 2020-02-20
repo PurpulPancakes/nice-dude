@@ -1,18 +1,88 @@
+div.step{
+    text-align: center;
+    border: solid 2px;
+    border-radius: 10px;
+}
 div.box-1{
-    width: 33%;
+    width: 32%;
     float: left;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-left: .5%;
+    margin-right: 1%;
 }
+div.surf{
+    text-align: center;
+}
+div.box-1 ul{
+    list-style: none;
+    padding-left: 2px;
+}
+div.box-1 li{
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 4px;
+    text-align: left;
+}
+
 div.box-2{
-    width: 33%;
+    width: 32%;
     float: left;
+    border: solid 2px;
+    border-radius: 10px;
 }
+div.beach{
+    text-align: center;
+}
+div.box-2 ul{
+    list-style: none;
+    padding-left: 2px;
+}
+div.box-2 li{
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 4px;
+    text-align: left;
+}
+
 div.box-3{
-    width: 33%;
+    width: 32%;
     float: left;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: .5%;
+}
+div.life{
+    text-align: center;
+}
+div.box-3 ul{
+    list-style: none;
+    padding-left: 2px;
+}
+div.box-3 li{
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 4px;
+    text-align: left;
 }
 img{
     width: 100%;
 }
-button{
-    
+div.theme{
+    text-align: center;
+}
+div.fin button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 150px;
+
+}
+div.theme button{
+    height: 50px;
+    width: 120px;
 }
