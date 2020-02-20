@@ -1,0 +1,63 @@
+html{
+    background: linear-gradient(#17344b, #242834);
+}
+div#header{
+    display: block;
+    float: center;
+    width: 90%;
+    background: #C4B0A9;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+div#header img{
+    display: block;
+    width: 100%;
+    margin: 0px;
+}
+section#stuffInside{
+    display: table;
+    width: 100%;
+    float: left;
+}
+section#stuffInside a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    text-decoration: none;
+}
+section#stuffInside a h2{
+    padding-top: 25%;
+}
+div#header::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+article{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 2%;
+}
+section#side{
+    grid-template-rows: 0.5fr 1fr;
+    background-color: #095B93;
+    margin-right: 13%;
+}
+article img{
+    display: block;
+    width: 80%;
+    padding-left: 8%;
+}
+section#side h1{
+    color: #FFCC57;
+    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    text-align: center;
+}
+
+section#side p{
+    color: #FFCC57;
+    text-shadow: #489AC2 1px 1px 2px, #489AC2 1px 1px 2px, #489AC2 1px 1px 2px;
+    text-align: center;
+}
