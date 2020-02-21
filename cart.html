@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NiceDude CheckOut</title>
+    <link href="cart.css" rel="stylesheet" />
+    <link href="form.css" rel="stylesheet" />
+    <script src="submit.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <!-- Logo -->
+        
+        <!-- Links to other pages -->
+        <section id="stuffInside">
+            <a><img src="logo.png" alt="Logo"/></a>
+            <a href=""><h2>Test1</h2></a>
+            <a href=""><h2>Test2</h2></a>
+            <a href=""><h2>Test3</h2></a>
+            <a href=""><h2>Test4</h2></a>
+        </section>
+    </div>
+    <article>
+        <form>
+            <fieldset id="custInfo">
+                <legend>Customer Information</legend>
+                <div class="formRow">
+                   <label for="name">Name*</label>
+                   <input required name="cusName" id="name" type="text" placeholder="First and Last Name" />
+                </div>
+                <div class="formRow">
+                   <label for="city">City*</label>
+                   <input name="custCity" id="city" type="text" />
+                </div>
+                <div class="formRow">
+                   <label for="country">Country*</label>
+                   <input name="custState" id="state" type="text" />
+                </div>
+                <div class="formRow">
+                    <label for="address">Address*</label>
+                    <input name="custState" id="state" type="text" />
+                 </div>
+                <div class="formRow">
+                   <label for="zip">Postal Code*</label>
+                   <input pattern="^\d{5}$(-\d{4})?$" name="custZip" id="zip" type="text" placeholder="#####(-###)" />
+                </div>
+                <div class="formRow">
+                    <label for="phone">Phone Number</label>
+                    <input pattern="^\d{10})$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" name="custPhone" id="phone" type="tel" placeholder="(###)###-###" />
+                </div>
+                <div class="formRow">
+                    <label for="mail">e-Mail*</label>
+                    <input required name="custMail" id="mail" type="email" />
+                </div>
+                <div class="formRow">
+                    <input name="mailMe" id="mailCB" type="checkbox" />
+                    <label for="mailCB">Add me to your mailing list for great Coupons and Specials!</label>
+                </div>
+            </fieldset>
+            <div id="buttons">
+                <input type="submit" value="Submit My Survey" />
+                <input type="reset" value="Cancel" />
+             </div>
+        </form>
+        <section id="side">
+            <!-- Title of thing -->
+            <h1>Check out</h1>
+            <!-- Talks about whatever is showen -->
+            <div>
+                <p>Price</p>    
+            </div>
+        </section>
+    </article>
+    <!-- sign up -->
+    <div>
+        <h2>Get you Subscription now</h1>
+        <h1>What are you waiting for</h1>
+        <img src="" alt="" />
+        <a href="sub.html">Sign Me Up</a>
+    </div>
+    <!-- color change themes for page -->
+    <button type="button" name="" onclick="">Theme 1</button>
+    <button type="button" name="" onclick="">Theme 1</button>
+    <button type="button" name="" onclick="">Theme 1</button>
+    <button type="button" name="" onclick="">Theme 1</button>
+</body>
+</html>
