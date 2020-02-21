@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 html{
     background: linear-gradient(#17344b, #242834);
+    font-family: Patrick Hand;
+    font-size: 1.5em;
 }
 div#header{
     display: block;
@@ -8,11 +11,11 @@ div#header{
     background: #C4B0A9;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    height: 150px;
 }
 div#header img{
     display: block;
-    width: 100%;
+    width: 75%;
     margin: 0px;
 }
 section#stuffInside{
@@ -27,8 +30,8 @@ section#stuffInside a{
     display: table-cell;
     text-decoration: none;
 }
-section#stuffInside a h2{
-    padding-top: 25%;
+section#stuffInside > a > h2{
+    padding-top: 5%;
 }
 div#header::after{
     clear: both;
@@ -39,6 +42,7 @@ article{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     padding-top: 2%;
+    padding-left: 5%;
 }
 section#side{
     grid-template-rows: 0.5fr 1fr;
@@ -55,9 +59,80 @@ section#side h1{
     text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
     text-align: center;
 }
-
 section#side p{
     color: #FFCC57;
     text-shadow: #489AC2 1px 1px 2px, #489AC2 1px 1px 2px, #489AC2 1px 1px 2px;
     text-align: center;
+}
+#backImg{
+    background: url("back.jpg");
+    background-size: cover;
+    padding-right: 20%;
+}
+div#header{
+    color: #FFCC57;
+    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    text-align: center;
+}
+a:link{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:active{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+div#endAlmost{
+    color: #FFCC57;
+    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    text-align: center;
+}
+div#endAlmost a{
+    margin: 0%;
+    font-size: 2em;
+}
+section#buttons{
+    text-align: center;
+}
+button{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    margin: 1%;
+    padding: 2%;
+    background-color: #489AC2;
+    border-radius: 15%;
+    border: #C4B0A9 outset 15px;
+    width: 15%;
+    font-family: Patrick Hand;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+button:hover{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    margin: 1%;
+    padding: 2%;
+    background-color: #C4B0A9;
+    border-radius: 15%;
+    border: #FFCC57 outset 15px;
+    width: 15%;
+    font-family: Patrick Hand;
+    font-size: 1.5em;
+    cursor: pointer;
 }
