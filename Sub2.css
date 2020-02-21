@@ -1,0 +1,32 @@
+html{
+    background-color: #2f2829;
+}
+
+h1{
+    color: #fcf9f4;
+    text-decoration-line: overline;
+}
+
+h3{
+    color: #cdb796;
+}
+
+p{
+    border-top: solid;
+}
+
+
+
+img#Life{
+    width: 45%;
+    float: right;
+    position: relative;
+    top: -383px;
+}
+
+img#Bum{
+    width: 45%;
+    float: right;
+    position: relative;
+    top: -400px;
+}
