@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NiceDude CheckOut</title>
-    <link href="cart.css" rel="stylesheet" />
+    <link id="theme" href="cart.css" rel="stylesheet" />
     <link href="form.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
     <script src="submit.js" defer></script>
 </head>
 <body>
@@ -74,16 +75,17 @@
         </section>
     </article>
     <!-- sign up -->
-    <div>
-        <h2>Get you Subscription now</h1>
-        <h1>What are you waiting for</h1>
-        <img src="" alt="" />
-        <a href="sub.html">Sign Me Up</a>
+    <div id="endAlmost">
+        <h1>Get your Subscription now!</h1>
+        <h2>What are you waiting for!?</h2>
+        <a href="sub.html"><h2>Sign Me Up!</h2></a>
     </div>
     <!-- color change themes for page -->
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 1</button>
+    <section id="buttons">
+        <button onclick="swapStyleSheet('themeCart1.css')">Theme 1</button>
+        <button onclick="swapStyleSheet('themeCart2.css')">Theme 2</button>
+        <button onclick="swapStyleSheet('themeCart3.css')">Theme 3</button>
+        <button onclick="swapStyleSheet('themeCart4.css')">Theme 4</button>
+    </section>
 </body>
 </html>

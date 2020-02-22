@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 html{
-    background: linear-gradient(#17344b, #242834);
+    background: linear-gradient(rgb(176, 226, 203), #96CEB4);
     font-family: Patrick Hand;
     font-size: 1.5em;
+    transition: 1s;
 }
 div#header{
     display: block;
     float: center;
     width: 90%;
-    background: #C4B0A9;
+    background: #FFCC5C;
     margin-left: auto;
     margin-right: auto;
     height: 150px;
+    transition: 1s;
 }
 div#header img{
     display: block;
@@ -46,8 +48,9 @@ article{
 }
 section#side{
     grid-template-rows: 0.5fr 1fr;
-    background-color: #095B93;
+    background-color: #FFEEAD;
     margin-right: 13%;
+    transition: 1s;
 }
 article img{
     display: block;
@@ -55,14 +58,16 @@ article img{
     padding-left: 8%;
 }
 section#side h1{
-    color: #FFCC57;
-    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    color: #88D8B0;
+    text-shadow: #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px,  #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px,  #FF6F69 0px 0px 5px;
     text-align: center;
+    transition: 1s;
 }
 section#side p{
-    color: #FFCC57;
-    text-shadow: #489AC2 1px 1px 2px, #489AC2 1px 1px 2px, #489AC2 1px 1px 2px;
+    color: #88D8B0;
+    text-shadow: #FF6F69 1px 1px 2px, #FF6F69 1px 1px 2px, #FF6F69 1px 1px 2px;
     text-align: center;
+    transition: 1s;
 }
 #backImg{
     background: url("back.jpg");
@@ -70,38 +75,48 @@ section#side p{
     padding-right: 20%;
 }
 div#header{
-    color: #FFCC57;
-    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    color: #88D8B0;
+    text-shadow: #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px,  #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px,  #FF6F69 0px 0px 5px;
     text-align: center;
+    transition: 1s;
 }
 a:link{
-    color: #095B93;
-    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    color: #FFEEAD;
+    text-shadow: #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px,  #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px,  #88D8B0 0px 0px 5px;
     text-align: center;
     text-decoration: none;
+    transition: 1s;
 }
 a:visited{
-    color: #095B93;
-    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    color: #FFEEAD;
+    text-shadow: #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px,  #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px,  #88D8B0 0px 0px 5px;
     text-align: center;
     text-decoration: none;
+    transition: 1s;
 }
 a:hover{
-    color: #489AC2;
-    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    color: #FF6F69;
+    text-shadow: #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px,  #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px,  #FFEEAD 0px 0px 5px;
     text-align: center;
     text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 a:active{
-    color: #489AC2;
-    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    color: #FF6F69;
+    text-shadow: #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px,  #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px,  #FFEEAD 0px 0px 5px;
     text-align: center;
     text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 div#endAlmost{
-    color: #FFCC57;
-    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    color: #88D8B0;
+    text-shadow: #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px,  #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px, #FF6F69 0px 0px 5px,  #FF6F69 0px 0px 5px;
     text-align: center;
+    transition: 1s;
 }
 div#endAlmost a{
     margin: 0%;
@@ -111,26 +126,27 @@ section#buttons{
     text-align: center;
 }
 button{
-    color: #095B93;
-    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    color: #FFEEAD;
+    text-shadow: #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px,  #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px, #88D8B0 0px 0px 5px,  #88D8B0 0px 0px 5px;
     margin: 1%;
     padding: 2%;
-    background-color: #489AC2;
+    background-color: #FF6F69;
     border-radius: 15%;
-    border: #C4B0A9 outset 15px;
+    border: #FFCC5C outset 15px;
     width: 15%;
     font-family: Patrick Hand;
     font-size: 1.5em;
     margin-bottom: 5%;
+    transition: 1s;
 }
 button:hover{
-    color: #489AC2;
-    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    color: #FF6F69;
+    text-shadow: #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px,  #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px, #FFEEAD 0px 0px 5px,  #FFEEAD 0px 0px 5px;
     margin: 1%;
     padding: 2%;
-    background-color: #C4B0A9;
+    background-color: #FFCC5C;
     border-radius: 15%;
-    border: #FFCC57 outset 15px;
+    border: #88D8B0 outset 15px;
     width: 15%;
     font-family: Patrick Hand;
     font-size: 1.5em;
@@ -233,7 +249,4 @@ div.fin button{
     margin-bottom: 10px;
     height: 2%;
     width: 20%;
-}
-button::selection{
-    background-color: black;
 }
