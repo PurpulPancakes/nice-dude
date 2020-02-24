@@ -197,6 +197,9 @@ div.box-3{
     margin-right: .5%;
     background-color: #489AC2;
 }
+div.box-3 h1{
+    margin-bottom: 0px;
+}
 div.life{
     text-align: center;
 }
@@ -214,11 +217,15 @@ div.box-1 img{
     width: 90%;
     border: #242834 2px;
     border-radius: 5px;
+    margin-top: 45.5px;
+    margin-bottom: 45.5px;
 }
 div.box-2 img{
     width: 90%;
     border: #242834 2px;
     border-radius: 5px;
+    margin-top: 45.5px;
+    margin-bottom: 45.5px;
 }
 div.box-3 img{
     width: 90%;
@@ -231,9 +238,7 @@ div.theme{
 div.fin button{
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: auto;
     height: 2%;
     width: 20%;
-}
-button::selection{
-    background-color: black;
 }
