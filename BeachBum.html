@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="Sub2.css" rel="stylesheet"/>
+    <link id="theme" href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>NiceDude</title>
 </head>
 <body>
@@ -26,18 +27,20 @@
                 <p>
                     The beach bum box is our intermediate box filled with essential items
                     you will need when visiting your local beach.<br> The beach bum box is
-                    for someone who visits the beach multiple times a week and has a
-                    liking to swim beach wear<br> and vibrant colors.
+                    for someone who visits the beach multiple times and loves vibrant beach wear.
 
                 </p>
+                
                 <h3>What's Included?</h3>
-                <p>
+                    <p>
                     <li>Beach Towel</li>
                     <li>Flip Flops</li>
                     <li>Sunscreen</li>
                     <li>Sunglassed</li>
                     <li>Swimming Trunks</li>
-                </p>
+                    </p>
+
+                
                 <h3>Why should I purchase it?</h3>
                 <p>
                     You should purchase the beach bum box because you are paying for a $200
@@ -50,10 +53,12 @@
         </div>
     </article>
     <!-- color change themes for page -->
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 2</button>
-    <button type="button" name="" onclick="">Theme 3</button>
-    <button type="button" name="" onclick="">Theme 4</button>
+    <aside>
+        <button onclick="swapStyleSheet('Sub2.css')">Theme 1</button>
+        <button onclick="swapStyleSheet('.css')">Theme 2</button>
+        <button onclick="swapStyleSheet('.css')">Theme 3</button>
+        <button onclick="swapStyleSheet('.css')">Theme 4</button>
+    </aside>
 </body>
 </html>
 
