@@ -1,87 +1,117 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 html{
-    background-color: #2f2829;
+    background: linear-gradient(#17344b, #242834);
     font-family: Patrick Hand;
-    font-size: 1.1em;
-}
-
-h1{
-    color: #fcf9f4;
-    text-decoration-line: overline;
-}
-
-h3{
-    color: #cdb796;
-    padding-top: 18px;
-    text-decoration-line: overline;
-
-}
-
-p{
-    border-top: double #0e0a0c;
-    color: mediumaquamarine;
-}
-
-
-
-img#Life{
-    width: 45%;
-    float: right;
-    position: relative;
-    top: -550px;
-    border: black solid 8px;
-}
-
-img#Bum{
-    width: 45%;
-    float: right;
-    position: relative;
-    top: -550px;
-    border: black solid 8px;
-}
-
-li{
-    color: mediumaquamarine;
+    font-size: 1.5em;
     
 }
 
+
+
+
+
+article{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+
+
+
+
+
+a:link{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+a:active{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+div#endAlmost{
+    color: #FFCC57;
+    text-shadow: #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px, #489AC2 0px 0px 5px,  #489AC2 0px 0px 5px;
+    text-align: center;
+}
+div#endAlmost a{
+    margin: 0%;
+    font-size: 2em;
+}
+section#buttons{
+    text-align: center;
+}
 button{
-    float: left;
-    color: #cdb796;
-    text-shadow: #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
-      #2f2829 0px 0px 5px,  #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
-      #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
-      #2f2829 0px 0px 5px;
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
     margin: 1%;
-    padding: 1%;
-    background-color: mediumseagreen;
-    border-radius: 9%;
-    border: #221d1e outset 8px;
-    width: 130px;
+    padding: 2%;
+    background-color: #489AC2;
+    border-radius: 15%;
+    border: #C4B0A9 outset 15px;
+    width: 15%;
     font-family: Patrick Hand;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 5%;
 }
 button:hover{
-    color: #cdb796;
-    text-shadow: #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
-    #2f2829 0px 0px 5px,  #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
-    #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
-    #2f2829 0px 0px 5px;
-    margin: 1%;
-    padding: 1%;
-    background-color: rgb(4, 107, 35);
-    border-radius: 9%;
-    border: #221d1e outset 8px;
-    width: 10%;
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    background-color: #C4B0A9;
+    border-radius: 15%;
+    border: #FFCC57 outset 15px;
+    width: 15%;
     font-family: Patrick Hand;
-    font-size: 1.3em;
+    font-size: 1.5em;
     cursor: pointer;
-    transition: .1s;
-    transform: scale(1.1);
+    transition: 0.3s;
+    transform: scale(1.2);
 }
 
-aside{
-    padding-top: 33px;
-    padding-left: 100px;
+h1{
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+img#Life{
+    width: 90%;
+    float: left;
+    margin-right: 100px;
+    
+    
+    border: black solid 8px;
+}
+
+button{
+    background-color: #489AC2; /* Green background */
+  border: #C4B0A9 outset 15px; 
+  color: #489AC2; 
+  width: 15%; 
+  display: block; 
+  position: relative;
+  bottom: 1010px;
 }
