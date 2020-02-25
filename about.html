@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel="stylesheet">
+    <link id="theme" href="style.css" rel="stylesheet">
+    <script src="sans.js" defer></script>
     <title>About</title>
 </head>
 <body>
@@ -27,9 +28,9 @@
             </section>
             <section id="side">
                 <!-- Title of thing -->
-                <h1>ABOUT</h1>
+                <h1 id="title">ABOUT</h1>
                 <!-- Talks about whatever is showen -->
-                <div>
+                <div id="about">
                     <p>Aloha, and welcome to Nice Dude, a beach-friendly company since 1820.
                         <br>
                         <br>
@@ -55,9 +56,11 @@
                 
             </section>
         </article>
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 1</button>
-    <button type="button" name="" onclick="">Theme 1</button>
+    <section id="buttons">
+    <button type="button" onclick="swapStyleSheetSans('themeAbout1.css')">Theme 1</button>
+    <button type="button" name="" onclick="swapStyleSheet('')">Theme 2</button>
+    <button type="button" name="" onclick="">Theme 3</button>
+    <button type="button" name="" onclick="">Theme 4</button>
+    </section>
 </body>
 </html>
