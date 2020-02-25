@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+html{
+    background: linear-gradient(rgb(197, 162, 121), #B18F69);
+    font-family: Patrick Hand;
+    font-size: 1.5em;
+    transition: 1s;
+}
+div#header{
+    display: block;
+    float: center;
+    width: 90%;
+    background: #D8CAAE;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    transition: 1s;
+}
+div#header img{
+    display: block;
+    width: 75%;
+    margin: 0px;
+}
+section#stuffInside{
+    display: table;
+    width: 100%;
+    float: left;
+}
+section#stuffInside a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    text-decoration: none;
+}
+section#stuffInside > a > h2{
+    padding-top: 5%;
+}
+div#header::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+article{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+section#side{
+    grid-template-rows: 0.5fr 1fr;
+    background-color: #5BA1B0;
+    margin-right: 13%;
+    transition: 1s;
+}
+article img{
+    display: block;
+    width: 80%;
+    padding-left: 8%;
+}
+section#side h1{
+    color: #DCE2E1;
+    text-shadow: #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px,  #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px,  #ACD1D1 0px 0px 5px;
+    text-align: center;
+    transition: 1s;
+}
+section#side p{
+    color: #DCE2E1;
+    text-shadow: #ACD1D1 1px 1px 2px, #ACD1D1 1px 1px 2px, #ACD1D1 1px 1px 2px;
+    text-align: center;
+    transition: 1s;
+}
+#backImg{
+    background: url("back.jpg");
+    background-size: cover;
+    padding-right: 20%;
+}
+div#header{
+    color: #DCE2E1;
+    text-shadow: #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px,  #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px,  #ACD1D1 0px 0px 5px;
+    text-align: center;
+    transition: 1s;
+}
+a:link{
+    color: #5BA1B0;
+    text-shadow: #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px,  #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px,  #DCE2E1 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+a:visited{
+    color: #5BA1B0;
+    text-shadow: #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px,  #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px,  #DCE2E1 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+a:hover{
+    color: #ACD1D1;
+    text-shadow: #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px,  #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px,  #5BA1B0 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+a:active{
+    color: #ACD1D1;
+    text-shadow: #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px,  #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px,  #5BA1B0 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+div#endAlmost{
+    color: #DCE2E1;
+    text-shadow: #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px,  #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px, #ACD1D1 0px 0px 5px,  #ACD1D1 0px 0px 5px;
+    text-align: center;
+    transition: 1s;
+}
+div#endAlmost a{
+    margin: 0%;
+    font-size: 2em;
+}
+section#buttons{
+    text-align: center;
+}
+button{
+    color: #5BA1B0;
+    text-shadow: #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px,  #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px, #DCE2E1 0px 0px 5px,  #DCE2E1 0px 0px 5px;
+    margin: 1%;
+    padding: 2%;
+    background-color: #ACD1D1;
+    border-radius: 15%;
+    border: #D8CAAE outset 15px;
+    width: 15%;
+    font-family: Patrick Hand;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    transition: 1s;
+}
+button:hover{
+    color: #ACD1D1;
+    text-shadow: #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px,  #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px, #5BA1B0 0px 0px 5px,  #5BA1B0 0px 0px 5px;
+    margin: 1%;
+    padding: 2%;
+    background-color: #D8CAAE;
+    border-radius: 15%;
+    border: #DCE2E1 outset 15px;
+    width: 15%;
+    font-family: Patrick Hand;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.2);
+}

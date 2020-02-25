@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+html{
+    background-color: #2f2829;
+    font-family: Patrick Hand;
+    font-size: 1.1em;
+    
+}
+
+h1{
+    color: #fcf9f4;
+    text-decoration-line: overline;
+}
+
+h3{
+    color: #cdb796;
+    padding-top: 18px;
+    text-decoration-line: overline;
+
+}
+
+p{
+    border-top: double #0e0a0c;
+    color: mediumaquamarine;
+}
+
+
+
+img#Life{
+    width: 45%;
+    float: right;
+    position: relative;
+    top: -550px;
+    border: black solid 8px;
+}
+
+img#Bum{
+    width: 45%;
+    float: right;
+    position: relative;
+    top: -550px;
+    border: black solid 8px;
+}
+
+li{
+    color: mediumaquamarine;
+    
+}
+
+button{
+    float: left;
+    color: #cdb796;
+    text-shadow: #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
+      #2f2829 0px 0px 5px,  #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
+      #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
+      #2f2829 0px 0px 5px;
+    margin: 1%;
+    padding: 1%;
+    background-color: mediumseagreen;
+    border-radius: 9%;
+    border: #221d1e outset 8px;
+    width: 130px;
+    font-family: Patrick Hand;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+button:hover{
+    color: #cdb796;
+    text-shadow: #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
+    #2f2829 0px 0px 5px,  #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
+    #2f2829 0px 0px 5px, #2f2829 0px 0px 5px, #2f2829 0px 0px 5px,
+    #2f2829 0px 0px 5px;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(4, 107, 35);
+    border-radius: 9%;
+    border: #221d1e outset 8px;
+    width: 10%;
+    font-family: Patrick Hand;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: .1s;
+    transform: scale(1.1);
+}
+
+aside{
+    padding-top: 33px;
+    padding-left: 100px;
+}
