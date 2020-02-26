@@ -1,0 +1,8 @@
+window.onload = setForm;
+
+function setForm() {
+   document.forms[0].onsubmit = function() {
+      if (this.checkValidity()) alert("Thank You for your purchase. Please come again and hope you are satified.");
+      return false;
+   }
+}
