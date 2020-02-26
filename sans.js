@@ -18,7 +18,7 @@ function swapStyleSheetSansChange(){
     document.getElementById("buttons").innerHTML = "<button onclick='swapStyleSheetSans('themeAbout1.css')'>FIGHT</button><button onclick='swapStyleSheet('themeAbout2.css')'>ACT</button><button onclick='swapStyleSheet('themeAbout3.css')'>ITEM</button><button onclick='swapStyleSheet('themeAbout4.css')'>SPARE</button>";
     document.getElementById("about").innerHTML = "<p>* You feel like you're going to have a sansational time.</p>";
     document.getElementById("title").innerHTML = "";
-    document.getElementById("header").innerHTML = "<section id='stuffInside'><a><img src='logo.png' alt='Logo'/></a><a href=''><h2>Test1</h2></a><a href=''><h2>Test2</h2></a><a href=''><h2>Test3</h2></a><a href=''><h2>Test4</h2></a></section><audio id = 'music' src='megalovania.mp3' autoplay loop></audio>";
+    document.getElementById("stuffInside").innerHTML = '<a href="index.html"><h2>Home</h2></a></a><a href="box.html"><h2>Boxes</h2></a><a href="about.html"><h2>About</h2></a><a href="faq.html"><h2>FAQ</h2></a><a href="sitepage.html"><h2>Site Map</h2></a><audio id = "music" src="megalovania.mp3" autoplay loop></audio>';
 }
 
 function fix(){
