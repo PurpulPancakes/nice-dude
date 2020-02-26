@@ -5,3 +5,55 @@ html{
 button{
     font-family: Lacquer;
 }
+html{
+    background: linear-gradient(#feb47b, #ff7e5f);
+    font-family: Trade Winds;
+    font-size: 1.5em;
+    display: block;
+    margin-left: 50%;
+
+}
+
+h3{
+    color: #351c4d;
+    text-decoration-line: underline;
+}
+
+img#Bum{
+    width: 80%;
+    display: block;
+    margin-left: -100%;
+    float: left;
+    position: relative;
+    top: -650px;
+    border: solid 20px;
+    
+}
+
+
+
+button{
+    color: #f5ab99;
+   
+    margin: 1%;
+    padding: 2%;
+    background-color: #351c4d;
+    border-radius: 15%;
+    border: #C4B0A9 outset 15px;
+    font-family: Trade Winds;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+button:hover{
+    color: #f5ab99;
+    margin: 1%;
+    padding: 2%;
+    background-color: #351c4d;
+    border-radius: 15%;
+    border: #ee6a60 outset 15px;
+    font-family: Trade Winds;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
