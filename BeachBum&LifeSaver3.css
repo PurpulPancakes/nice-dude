@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Original+Surfer&display=swap');
+html{
+    font-family: Original Surfer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color:#e9d59c;
+    color: #154729;
+
+}
+button{
+    font-family: Original Surfer;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #738b13;
+
+}
+
+img#Life{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid black;
+    margin-bottom: 20px;
+}
+h3{
+    color: #22bed9;
+    border: solid;
+}
+h1{
+    text-decoration-line: underline;
+
+}
+
+button{
+    float: left;
+    color: #164249;
+    margin: 1%;
+    padding: 1%;
+    background-color: #64b8b1;
+    border-radius: 25%;
+    border: #221d1e outset 8px;
+    width: 130px;
+    font-family: Patrick Hand;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
