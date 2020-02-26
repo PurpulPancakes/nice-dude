@@ -15,7 +15,6 @@ html{
     background: black;
     font-family: sans;
     font-size: 1.5em;
-    transition: 1s;
 }
 div#header{
     text-align: center;
@@ -95,8 +94,7 @@ a:hover{
     color: white;
     text-align: center;
     text-decoration: none;
-    transition: 0.5s;
-    transform: scale(1.2);
+    color: yellow;
     cursor: pointer;
 }
 a:active{
