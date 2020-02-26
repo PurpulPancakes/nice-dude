@@ -1,7 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap');
 html{
-    font-family: Modak;
+    font-family: Over the Rainbow;
+    background-color: #91b3bc;
+    position: relative;
+    top: 500px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 button{
-    font-family: Modak;
+    font-family: Over the Rainbow;
+    float: left;
+    color: #91b3bc;
+    margin: 1%;
+    padding: 1%;
+    background-color: #45415e;
+    border-radius: 25%;
+    border: #221d1e outset 8px;
+    width: 130px;
+    font-family: Over the Rainbow;
+    font-size: 1.2em;
+    position: relative;
+    top: -300px;
+    
+}
+img#Life{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -1100px;
+    border: dashed;
+}
+
+h3{
+    text-decoration-line: underline;
+    color: #45415e;
+}
+h1{
+    color: #2e323c;
+    text-decoration-line: overline;
 }
