@@ -9,7 +9,7 @@ div#header{
     display: block;
     float: center;
     width: 90%;
-    background: #00B7CC;
+    background: rgb(32, 224, 144);
     margin-left: auto;
     margin-right: auto;
     height: 150px;
@@ -130,7 +130,7 @@ button{
     text-shadow: #005F81 0px 0px 5px, #005F81 0px 0px 5px, #005F81 0px 0px 5px, #005F81 0px 0px 5px,  #005F81 0px 0px 5px, #005F81 0px 0px 5px, #005F81 0px 0px 5px, #005F81 0px 0px 5px, #005F81 0px 0px 5px,  #005F81 0px 0px 5px;
     margin: 1%;
     padding: 2%;
-    background-color: #FFD0CC;
+    background-color: rgb(32, 224, 144);
     border-radius: 15%;
     border: #00B7CC outset 15px;
     width: 15%;
@@ -144,7 +144,7 @@ button:hover{
     text-shadow: #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px,  #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px, #FF6FA9 0px 0px 5px,  #FF6FA9 0px 0px 5px;
     margin: 1%;
     padding: 2%;
-    background-color: #00B7CC;
+    background-color: rgb(32, 224, 144);
     border-radius: 15%;
     border: #005F81 outset 15px;
     width: 15%;
@@ -273,7 +273,7 @@ div.month p{
     color: #095B93;
     text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
     padding: 1%;
-    background-color: #489AC2;
+    background-color: rgb(32, 224, 144);
     border-radius: 15%;
     border: #C4B0A9 outset 15px;
     margin-left: 1%;
@@ -303,7 +303,7 @@ div.day p{
     color: #095B93;
     text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
     padding: 1%;
-    background-color: #489AC2;
+    background-color: rgb(32, 224, 144);
     border-radius: 15%;
     border: #C4B0A9 outset 15px;
     float: left;
