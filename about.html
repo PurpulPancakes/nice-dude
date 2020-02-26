@@ -14,11 +14,11 @@
             
             <!-- Links to other pages -->
             <section id="stuffInside">
-                <a><img src="logo.png" alt="Logo"/></a>
-                <a href=""><h2>Test1</h2></a>
-                <a href=""><h2>Test2</h2></a>
-                <a href=""><h2>Test3</h2></a>
-                <a href=""><h2>Test4</h2></a>
+                <a href="index.html"><img src="logo.png" alt="Logo"/></a>
+            <a href="box.html"><h2>Boxes</h2></a>
+            <a href="about.html"><h2>About</h2></a>
+            <a href="faq.html"><h2>FAQ</h2></a>
+            <a href="sitepage.html"><h2>Site Map</h2></a>
             </section>
         </div>
         <article>
@@ -57,10 +57,10 @@
             </section>
         </article>
     <section id="buttons">
-    <button type="button" onclick="swapStyleSheetSans('themeAbout1.css')">Theme 1</button>
-    <button type="button" name="" onclick="swapStyleSheet('')">Theme 2</button>
-    <button type="button" name="" onclick="">Theme 3</button>
-    <button type="button" name="" onclick="">Theme 4</button>
+    <button type="button" onclick="swapStyleSheetSans('themeAbout1.css'); swapStyleSheetSansChange()">Theme 1</button>
+    <button type="button" onclick="swapStyleSheet('themeAbout2.css')">Theme 2</button>
+    <button type="button" id="three" onclick="swapStyleSheet('themeAbout3.css')">Theme 3</button>
+    <button type="button" onclick="swapStyleSheet('themeAbout4.css')">Theme 4</button>
     </section>
 </body>
 </html>

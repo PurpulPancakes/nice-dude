@@ -8,7 +8,7 @@
     <link id="theme" href="cart.css" rel="stylesheet" />
     <link href="form.css" rel="stylesheet" />
     <script src="script.js" defer></script>
-    <script src="submit.js" defer></script>
+    <script src="formsubmit.js" defer></script>
 </head>
 <body>
     <div id="header">
@@ -30,19 +30,19 @@
                 </div>
                 <div class="formRow">
                    <label for="city">City*</label>
-                   <input name="custCity" id="city" type="text" />
+                   <input required name="custCCity" id="city" type="text" />
                 </div>
                 <div class="formRow">
                    <label for="country">Country*</label>
-                   <input name="custState" id="state" type="text" />
+                   <input required name="custCountry" id="country" type="text" />
                 </div>
                 <div class="formRow">
                     <label for="address">Address*</label>
-                    <input name="custState" id="state" type="text" />
+                    <input required name="custAddress" id="address" type="text" />
                  </div>
                 <div class="formRow">
                    <label for="zip">Postal Code*</label>
-                   <input pattern="^\d{5}$(-\d{4})?$" name="custZip" id="zip" type="text" placeholder="#####(-###)" />
+                   <input required pattern="^\d{5}$(-\d{4})?$" name="custZip" id="zip" type="text" placeholder="#####(-###)" />
                 </div>
                 <div class="formRow">
                     <label for="phone">Phone Number</label>
@@ -57,17 +57,42 @@
                     <label for="mailCB">Add me to your mailing list for great Coupons and Specials!</label>
                 </div>
             </fieldset>
+            <fieldset id="cardInfo">
+                    <legend>Credit Card Information</legend>
+                    <div class="formRow">
+                       <label for="name">Name*</label>
+                       <input required name="cusName" id="name" type="text" placeholder="First and Last Name" />
+                    </div>
+                    <div class="formRow">
+                       <label for="cvv">CVV*</label>
+                       <input required pattern="^\d{3}$" name="custCVV" id="cvv" type="num" placeholder="(###)"/>
+                    </div>
+                    <div class="formRow">
+                       <label for="card">Card Number*</label>
+                       <input required name="custCard" id="card" type="num" placeholder="####-####-####-####"/>
+                    </div>
+                    <div class="formRow">
+                        <label for="date">Expire Date*</label>
+                        <input required pattern="^\d{2}$|^(\(\d{2}\)\s*)?\d{4}$" name="custPhone" id="date" type="tel" placeholder="##/##/####" />
+                    </div>
+                </fieldset>
             <div id="buttons">
-                <input type="submit" value="Submit My Survey" />
+                <input type="submit" value="Submit My Order" />
                 <input type="reset" value="Cancel" />
              </div>
         </form>
         <section id="side">
-            <!-- Title of thing -->
-            <h1>Check out</h1>
-            <!-- Talks about whatever is showen -->
-            <div>
-                <p>Price</p>    
+            <h1>Checking out</h1>
+            <div class="flex-container">
+                <div class="p1"> 
+                    <p>Surf's Up 6 Months $280.00</p>
+                </div>
+                <div class="p2">    
+                    <p>Beach Bum 3 Months $175.00</p>
+                </div>
+                <div class="p3">   
+                    <p>Life Saver 12 Months $850.00</p>
+                </div>
             </div>
         </section>
     </article>
