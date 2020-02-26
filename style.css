@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 html{
-    background: linear-gradient(#17344b, #242834);
+    background: linear-gradient(#17344b, #242834) no-repeat;
     font-family: Patrick Hand;
     font-size: 1.5em;
 }

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+html{
+    font-family: Patrick Hand;
+    font-size: 1.5em;
+    text-align: center;
+}
+body{
+    background: #17344b;
+    padding-top: 10%;
+}
+a:link{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited{
+    color: #095B93;
+    text-shadow: #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px, #FFCC57 0px 0px 5px,  #FFCC57 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+a:active{
+    color: #489AC2;
+    text-shadow: #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px, #095B93 0px 0px 5px,  #095B93 0px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
