@@ -1,7 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
 html{
     font-family: Akronim;
+    background-color: #91b3bc;
+    font-size: 20px;
+    position: relative;
+    top: 500px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 button{
     font-family: Akronim;
+    float: left;
+    color: #91b3bc;
+    margin: 1%;
+    padding: 1%;
+    background-color: #45415e;
+    border-radius: 25%;
+    border: #221d1e outset 8px;
+    width: 130px;
+    font-family: Over the Rainbow;
+    font-size: 1.2em;
+    position: relative;
+    top: -300px;
+    
+}
+img#Bum{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -1000px;
+    border: dashed;
+}
+
+h3{
+    text-decoration-line: underline;
+    color: #45415e;
+}
+h1{
+    color: #2e323c;
+    text-decoration-line: overline;
 }
