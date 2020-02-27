@@ -16,11 +16,34 @@ article{
     padding-top: 2%;
     padding-left: 5%;
 }
+div#header{
+    display: block;
+    float: center;
+    width: 90%;
+    background: #C4B0A9;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+div#header img{
+    display: block;
+    width: 75%;
+    margin: 0px;
+}
 
 
-
-
-
+section#stuffInside{
+    display: table;
+    width: 100%;
+    float: left;
+}
+section#stuffInside a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    text-decoration: none;
+}
 
 
 a:link{
@@ -98,9 +121,14 @@ h1{
 }
 
 img#Life{
-    width: 90%;
+    width: 80%;
+    display: block;
+    margin-left: -100%;
     float: left;
-    margin-right: 100px;
+    position: relative;
+    top: -650px;
+    border: solid 20px;
+    
     
     
     border: black solid 8px;
