@@ -10,6 +10,20 @@ html{
     margin-right: auto;
 
 }
+section#stuffInside{
+    display: table;
+    width: 100%;
+    float: left;
+}
+section#stuffInside a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    text-decoration: none;
+}
+
+    
 button{
     font-family: Over the Rainbow;
     float: left;
@@ -32,7 +46,7 @@ img#Life{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -1100px;
+    top: -1200px;
     border: dashed;
 }
 
@@ -44,3 +58,4 @@ h1{
     color: #2e323c;
     text-decoration-line: overline;
 }
+

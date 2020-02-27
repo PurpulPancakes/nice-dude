@@ -55,3 +55,15 @@ button{
     font-size: 1.2em;
     margin-bottom: 5%;
 }
+section#stuffInside{
+    display: table;
+    width: 100%;
+    float: left;
+}
+section#stuffInside a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    text-decoration: none;
+}

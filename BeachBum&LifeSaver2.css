@@ -5,6 +5,18 @@ html{
     font-size: 1.1em;
     
 }
+section#stuffInside{
+    display: table;
+    width: 100%;
+    float: left;
+}
+section#stuffInside a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    text-decoration: none;
+}
 
 h1{
     color: #fcf9f4;
