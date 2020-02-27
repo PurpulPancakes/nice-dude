@@ -143,3 +143,12 @@ button{
   position: relative;
   bottom: 1010px;
 }
+div{
+    color: #FFCC57;
+    text-shadow: #489AC2 1px 1px 2px, #489AC2 1px 1px 2px, #489AC2 1px 1px 2px;
+}
+h1{
+    color: #FFCC57;
+    text-shadow: #489AC2 1px 1px 2px, #489AC2 1px 1px 2px, #489AC2 1px 1px 2px;
+
+}
