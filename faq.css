@@ -63,13 +63,16 @@ section#side p{
     color: #FFCC57;
     text-shadow: #489AC2 1px 1px 2px, #489AC2 1px 1px 2px, #489AC2 1px 1px 2px;
     text-align: center;
-    padding-left: 4%;
-    padding-right: 4%;
+}
+section#side{
+    margin-bottom: 5%;
 }
 #backImg{
     background: url("back.jpg");
     background-size: cover;
     padding-right: 20%;
+    padding-top: 27%;
+    padding-bottom: 25%;
 }
 div#header{
     color: #FFCC57;
