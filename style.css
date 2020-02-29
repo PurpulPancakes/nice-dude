@@ -117,6 +117,24 @@ div#endAlmost a{
     margin: 0%;
     font-size: 2em;
 }
+div#endAlmost a:link{
+    margin: 0%;
+    transition: 1s;
+}
+div#endAlmost a:visited{
+    margin: 0%;
+    transition: 1s;
+}
+div#endAlmost a:hover{
+    margin: 0%;
+    transition: 0.5s;
+    font-size: 2.2em;
+}
+div#endAlmost a:active{
+    margin: 0%;
+    transition: 0.5s;
+    font-size: 2.2em;
+}
 section#buttons{
     text-align: center;
 }
