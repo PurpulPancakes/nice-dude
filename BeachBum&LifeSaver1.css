@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 html{
-    background: linear-gradient(#17344b, #242834);
+    background-image: url(beach.jpg);
     font-family: Patrick Hand;
     font-size: 1.5em;
 }
@@ -8,7 +8,7 @@ div#header{
     display: block;
     float: center;
     width: 90%;
-    background: #C4B0A9;
+    background: rgba(196, 176, 169, 0.479);
     margin-left: auto;
     margin-right: auto;
     height: 150px;
@@ -46,12 +46,12 @@ article{
 }
 section#side{
     grid-template-rows: 0.5fr 1fr;
-    background-color: #095B93;
+    background-color: rgba(9, 92, 147, 0.815);
     margin-right: 13%;
 }
 article img{
     display: block;
-    width: 80%;
+    width: 70%;
     padding-left: 8%;
 }
 section#side h1{
@@ -68,6 +68,7 @@ section#side p{
     background: url("back.jpg");
     background-size: cover;
     padding-right: 20%;
+    
 }
 div#header{
     color: #FFCC57;
@@ -153,4 +154,17 @@ h3{
 strong{
     color: red;
     text-shadow: black 3px 3px 0px;
+}
+
+
+@media only screen and (max-width: 480px){
+html{
+    width: 25%;
+    font-size: 17px;
+}
+section#stuff{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 240px;
+
 }
